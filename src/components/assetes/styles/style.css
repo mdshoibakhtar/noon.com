@@ -95,6 +95,9 @@ video {
   /* border: solid 1px red; */
   overflow-x: hidden;
 }
+a {
+  text-decoration: none;
+}
 .inpOut {
   outline-style: none;
 }
@@ -180,12 +183,14 @@ video {
   line-height: 1.24;
   height: 34.72px;
   margin-bottom: 6px;
+  white-space: nowrap;
   overflow: hidden;
+  text-overflow: ellipsis;
   text-decoration: none;
   color: black;
 }
 .fEhCbX {
-  height: 85px;
+  height: 55%;
 }
 .dWGXnz {
   font-size: 1.14286rem;
@@ -329,4 +334,116 @@ img {
 }
 .bg-fi {
   background-color: #e1effa;
+}
+.btLjaq {
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+  flex-direction: row;
+  margin: 0px 15px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.fIdVYV {
+  flex: 1 1 0%;
+  display: inline-flex;
+  flex-direction: row;
+  max-width: 90%;
+}
+.fIdVYV {
+  flex: 1 1 0%;
+  display: inline-flex;
+  flex-direction: row;
+  max-width: 90%;
+}
+.fIdVYV > .truncate-title-header {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 7.5px 0px;
+  color: rgb(64, 69, 83);
+  text-align: left;
+  font-weight: bold;
+  font-size: 24px;
+}
+.hRppEE {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+
+  white-space: nowrap;
+  margin: 7.5px 0px 7.5px 15px;
+  padding: 5px 8px;
+  border: 1px solid rgb(64, 69, 83);
+
+  background-color: rgb(255, 255, 255);
+}
+.hRppEE a {
+  text-decoration: none;
+  color: rgb(64, 69, 83);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ja-dsFM {
+  position: relative;
+  display: flex;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.ihCjkB {
+  width: 100%;
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+.cvxXHO {
+  flex: 1 1 0%;
+  max-width: 100%;
+  overflow: hidden;
+}
+.PRrDz {
+  position: relative;
+  overflow: hidden;
+}
+.PRrDz::before {
+  left: -6px;
+}
+.PRrDz::before,
+.PRrDz::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 5px);
+  border: 1px dashed rgb(56, 174, 4);
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  background-color: rgb(255, 255, 255);
+}
+.tkcM {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 2px 8px;
+  border: 1px dashed rgb(56, 174, 4);
+  color: rgb(56, 174, 4);
+  line-height: 16px;
+}
+.PRrDz::after {
+  right: -6px;
+}
+.PRrDz::before,
+.PRrDz::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 5px);
+  border: 1px dashed rgb(56, 174, 4);
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  background-color: rgb(255, 255, 255);
 }

@@ -7,6 +7,7 @@ function App() {
     <div className="d-block d-sm-none">
       <Header />
       <MainSection />
+      {/* <Footer /> */}
     </div>
   );
 }

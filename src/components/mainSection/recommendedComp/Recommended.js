@@ -1,10 +1,9 @@
 import Slider from "react-slick";
 import { BiRupee } from "react-icons/bi"
-import { recomData } from "./mockData";
 import { Link } from "react-router-dom";
 import exp from "../../assetes/images/recommended-images/express.svg"
-export const Recommended = () => {
-    const data = recomData.data
+export const Recommended = ({ recData }) => {
+
     var settings = {
         dots: false,
         infinite: false,
@@ -19,7 +18,7 @@ export const Recommended = () => {
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 2.5,
+                    slidesToShow: 3.2,
                     slidesToScroll: 2,
                     initialSlide: 2
                 }
@@ -40,7 +39,7 @@ export const Recommended = () => {
 
         <div className="mt-2">
             <Slider {...settings} className="">
-                {data.map((value) => {
+                {recData.map((value) => {
                     return <Link key={value.id} className="p-2 text-decoration-none"  >
                         <div className="position-relative">
                             {value.tagBestSell && <div className="sc-d49d1b87-2 zZzub"><div className="sc-d49d1b87-3 gUpXXM"><div className="sc-d49d1b87-8 jjnRiG"><div className="sc-d49d1b87-9 bYcfpD"><div className="sc-a6eb4389-0 jykRup"><span className="sc-a6eb4389-1 cIueBQ">{value.tagBestSell}</span></div></div></div></div></div>}

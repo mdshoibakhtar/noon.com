@@ -1,11 +1,11 @@
-import exp0 from "../../assetes/images/eidmubImg/eid-1.png"
-import exp1 from "../../assetes/images/eidmubImg/eid-2.png"
-import exp2 from "../../assetes/images/eidmubImg/eid-3.png"
-import exp3 from "../../assetes/images/eidmubImg/eid-4.png"
-import exp4 from "../../assetes/images/eidmubImg/eid-6.png"
-import exp6 from "../../assetes/images/eidmubImg/eid-7.png"
-import exp7 from "../../assetes/images/eidmubImg/eid-8.png"
-import exp8 from "../../assetes/images/eidmubImg/eid-9.png"
+import exp0 from "../../assetes/images/eidmubImg/e-id-1.png"
+import exp1 from "../../assetes/images/eidmubImg/e-id-2.png"
+import exp2 from "../../assetes/images/eidmubImg/e-id-3.png"
+import exp3 from "../../assetes/images/eidmubImg/e-id-5.png"
+import exp4 from "../../assetes/images/eidmubImg/e-id-6.png"
+import exp6 from "../../assetes/images/eidmubImg/e-id-7.png"
+import exp7 from "../../assetes/images/eidmubImg/e-id-8.png"
+import exp8 from "../../assetes/images/eidmubImg/e-id-9.png"
 export const eidDta = {
     data: [
         {

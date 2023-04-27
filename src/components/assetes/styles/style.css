@@ -447,3 +447,7 @@ img {
   height: 9px;
   background-color: rgb(255, 255, 255);
 }
+.componentArea a {
+  display: inline-block;
+  flex-shrink: 0;
+}

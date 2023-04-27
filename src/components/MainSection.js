@@ -11,6 +11,7 @@ import { DealNoon } from "./mainSection/dealOnlyOnNoon/NoonDeals"
 import { IdShop } from "./mainSection/idShop/IdShop"
 import { idShop } from "./mainSection/idShop/mockData"
 import { MegaDeals } from "./mainSection/megaDeals/Megadeals"
+import { noonBrand } from "./mainSection/noonBrandsDeals/mockDataNoonBrand"
 import { NoonGrocery } from "./mainSection/noonGrocery/NoonGrocery"
 import { Recommended } from "./mainSection/recommendedComp/Recommended"
 import { recomData } from "./mainSection/recommendedComp/mockData"
@@ -18,6 +19,7 @@ const idData = idShop.data
 const beauty = beautyD.data
 const recdata = recomData.data
 const clearData = clearenceData.data
+const noonBrands = noonBrand.data
 export const MainSection = () => {
     return (
         <main>
@@ -32,7 +34,8 @@ export const MainSection = () => {
             <DealNoon />
             <Trending />
             <Clearance clearData={clearData} />
-            {/* <NoonGrocery /> */}
+            <NoonGrocery />
+            <Clearance clearData={noonBrands} />
         </main>
     )
 }

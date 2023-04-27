@@ -9,7 +9,9 @@ import rec8 from "../../assetes/images/recommended-images/re-s-8.png"
 import rec9 from "../../assetes/images/recommended-images/re-s-9.png"
 import rec10 from "../../assetes/images/recommended-images/re-s-10.png"
 export const recomData = {
+    titleHead: "Recommended for you",
     data: [
+
         {
             id: "1",
             tagBestSell: "Best Seller",

@@ -34,19 +34,19 @@ export const Recommended = ({ recData }) => {
     };
     return <div className="bg-lights pt-1 px-3">
         <h3 className="fw-bolder">
-            Recommended for you
+            {recData.titleHead}
         </h3>
 
         <div className="mt-2">
             <Slider {...settings} className="">
-                {recData.map((value) => {
+                {recData.data.map((value) => {
                     return <Link key={value.id} className="p-2 text-decoration-none"  >
                         <div className="position-relative">
                             {value.tagBestSell && <div className="sc-d49d1b87-2 zZzub"><div className="sc-d49d1b87-3 gUpXXM"><div className="sc-d49d1b87-8 jjnRiG"><div className="sc-d49d1b87-9 bYcfpD"><div className="sc-a6eb4389-0 jykRup"><span className="sc-a6eb4389-1 cIueBQ">{value.tagBestSell}</span></div></div></div></div></div>}
                             <div>
                                 <img src={value.img} alt="spon-img" width={100 + "%"} />
                             </div>
-                            <div data-qa="product-name" title="Apple iPhone 14 Pro Max 256GB Deep Purple 5G With FaceTime - Middle East Version " className="sc-d49d1b87-20 cTToVU"><span width="0"><span><span>Apple iPhone 14 Pro</span><br /><span><span>Max 256GB Deep …</span></span></span><span style={{ position: "fixed", visibility: "hidden", top: "0px", left: "0px", }}>…</span></span></div>
+                            <div data-qa="product-name" title="Apple iPhone 14 Pro Max 256GB Deep Purple 5G With FaceTime - Middle East Version " className="sc-d49d1b87-20 cTToVU"><span width="0"><span><span>{value.title1}</span><br /><span><span>{value.title2}</span></span></span><span style={{ position: "fixed", visibility: "hidden", top: "0px", left: "0px", }}>…</span></span></div>
 
                             <div className="sc-d49d1b87-21 fEhCbX">
                                 <div className="sc-d49d1b87-21 fEhCbX "><div><div className="sc-39ae41a1-0 dWGXnz d-flex"><span className="currency"><BiRupee /> </span><strong className="amount">{value.price}</strong></div><div className="sc-39ae41a1-1 jZCwfD "><span className="oldPrice"> {value.offPrice}</span><span className="discount">{value.offer} Off</span></div></div></div>

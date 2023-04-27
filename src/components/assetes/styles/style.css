@@ -451,3 +451,45 @@ img {
   display: inline-block;
   flex-shrink: 0;
 }
+.hFfRHg {
+  display: flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow: auto hidden;
+}
+@media only screen and (max-width: 479px) {
+  .jIghwg {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    white-space: initial;
+  }
+}
+.jIghwg {
+  width: 18%;
+  display: inline-block;
+  vertical-align: top;
+  white-space: initial;
+}
+.dLheIH {
+  position: relative;
+  display: block;
+}
+.jDQxLl {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.jDQxLl img:not(.zoomImage) {
+  display: block;
+}
+
+.fRXJso {
+  max-width: 100%;
+}
+img {
+  max-width: 100%;
+  display: block;
+}

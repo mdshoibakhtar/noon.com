@@ -9,8 +9,8 @@ import exp8 from "../../../assetes/images/toys/7b4ea41a-460b-4fd6-8b7c-c1bfc5c1f
 import exp9 from "../../../assetes/images/toys/9c48ef8a-ddb3-4c18-9b0a-f444eb3aab35.png"
 import dImg from "../../../assetes/images/toys/094cab42-4c7a-4f06-87b8-87aa6fda91f2.png"
 import exp10 from "../../../assetes/images/toys/befc955b-75c5-4af3-ab3b-ee95aeab76da.png"
-import exp11 from "../../../assetes/images/toys/d4b22122-5ea9-4366-a1ba-3ee33b00b408.png"
-import exp12 from "../../../assetes/images/toys/e100289e-00b5-40ac-a169-639a07a61ee5.png"
+import exp11 from "../../../assetes/images/toys/e100289e-00b5-40ac-a169-639a07a61ee5.png"
+import exp12 from "../../../assetes/images/toys/d4b22122-5ea9-4366-a1ba-3ee33b00b408.png"
 
 
 export const toysData = {

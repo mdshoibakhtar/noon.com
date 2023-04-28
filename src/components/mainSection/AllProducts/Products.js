@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 function Products({ data }) {
     return (
         <>
-            <div className='py-2'>
+            <Link className='py-2'>
                 <img src={data.headerImg} alt='womens fash' />
-            </div>
+            </Link>
             <div className='componentArea py-2'>
                 <div className='d-flex overflow-scroll' style={{}} >
                     {data.data.map((value) => {

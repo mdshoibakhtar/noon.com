@@ -94,6 +94,9 @@ video {
   /* border: solid 1px red; */
   overflow-x: hidden;
 }
+*::-webkit-scrollbar {
+  display: none;
+}
 a {
   text-decoration: none;
 }
@@ -508,6 +511,7 @@ img {
   flex: 1 1 0%;
   display: block;
   padding: 10px 6px;
+  text-decoration: none;
 }
 #fTPOtk1 {
   height: 100%;
@@ -520,4 +524,10 @@ img {
 }
 #fTPOtk1 > #iconContain1 {
   position: relative;
+}
+#fTPOtk1 span.label {
+  font-size: 11px;
+  color: rgb(64, 69, 83);
+  font-weight: 600;
+  text-align: center;
 }

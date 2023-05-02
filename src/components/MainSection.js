@@ -1,3 +1,4 @@
+import { HeadBanner } from "./header/location/HeaderBanner"
 import { Asponsored } from "./mainSection/Asponsored/Asponsored"
 import { Clearance } from "./mainSection/Clearence/Clearance"
 import { clearenceData } from "./mainSection/Clearence/mockData"
@@ -24,6 +25,7 @@ const noonBrands = noonBrand.data
 export const MainSection = () => {
     return (
         <main>
+            <HeadBanner />
             <StaticBann />
             <Wrapper />
             <RamdanOff />

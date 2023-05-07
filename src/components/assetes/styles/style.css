@@ -604,3 +604,13 @@ img {
   color: #404553;
   font-weight: 400px;
 }
+.accordion-item:last-of-type{
+  border: none ;
+}
+.heNSDb {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0px !important;
+}.heNSDb a{
+  text-decoration: none;
+}

@@ -80,11 +80,7 @@ export const asideData = {
             eventKey: "sixteen",
             menuItem: "Health &amp; Nutrition"
         },
-        {
-            id: "17",
-            eventKey: "seventeen",
-            menuItem: "Just for you"
-        },
+
 
     ]
 }

@@ -4,8 +4,7 @@ import Footer from './components/footer/Footer';
 import { Header } from './components/Header';
 import { MainSection } from './components/MainSection';
 import { Route, Routes } from 'react-router-dom';
-import { Categories } from './pages/categories/index';
-import { pDataCate } from './pages/categories/pMockCategoriesData';
+import CategoriesComponentsAll from './components/mainSection/categoriesComponents/CategoriesComponentsAll';
 
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<MainSection />} />
-        <Route path="/category" element={<Categories pDataCate={pDataCate} />} />
+        <Route path="/category" element={<CategoriesComponentsAll />} />
       </Routes>
       <Footer />
     </div>

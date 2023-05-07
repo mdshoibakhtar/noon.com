@@ -4,7 +4,7 @@ import React from 'react';
 export const MapContainer = () => {
     const containerStyle = {
         width: 100 + '%',
-        height: '150px'
+        height: '100vh'
     };
     const center = {
         lat: -3.745,

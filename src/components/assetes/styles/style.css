@@ -99,6 +99,12 @@ video {
 .accordion-item, .accordion-button{
   background-color: #f7f7fa !important;
 }
+/* .sticky{
+  background-color: red;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+} */
 a {
   text-decoration: none;
 }

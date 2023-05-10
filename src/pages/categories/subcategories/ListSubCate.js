@@ -7,7 +7,7 @@ import SubSubCateList from './SubSubCateList';
 import { mobDataCate } from '../mockDcategories/mobMockCategories';
 import { mobAcceDataCate } from '../mockDcategories/mobAccessMockCategories';
 import { topBrandsCate } from '../mockDcategories/topbrandsMockCate';
-import { homeKitBann, mobBannData, beautyBannner } from '../asideHeaderBann/bannerMockDmobileAcce';
+import { homeKitBann, mobBannData, beautyBannner, fragranceBanner } from '../asideHeaderBann/bannerMockDmobileAcce';
 import { homeKitDataCate } from '../mockDcategories/homeKitMock';
 import { homeFurnitureDataCate } from '../mockDcategories/homeFurnitureMock';
 import { homeToolsDataCate } from '../mockDcategories/homeToolsMock';
@@ -15,6 +15,7 @@ import { homeDecorDataCate } from '../mockDcategories/homeDecorMock';
 import { bathingBedingDataCate } from '../mockDcategories/homeBathBed';
 import { groceryDataCate } from '../mockDcategories/grocriesMock';
 import { beautyMakupDataCate, skinCareData, hairCareData, personalCareData, topBrandsData } from '../mockDcategories/mackeupMock';
+import { womensFragranceData, menFragranceData } from '../mockDcategories/fragnanceMockData';
 
 
 
@@ -24,10 +25,10 @@ function ListSubCate({ pDataCate }) {
     const [homeKitchen] = useState({ homeKitBann, homeKitDataCate, homeFurnitureDataCate, homeToolsDataCate, homeDecorDataCate, bathingBedingDataCate })
     const [groceryData] = useState({ groceryDataCate })
     const [beautyData] = useState({ beautyBannner, beautyMakupDataCate, skinCareData, hairCareData, personalCareData, topBrandsData })
-
+    const [fragrance] = useState({ fragranceBanner, womensFragranceData, menFragranceData, })
     return <>
 
-        <parentslistcomponent.Provider value={{ mobileData, homeKitchen, groceryDataCate, beautyData }}>
+        <parentslistcomponent.Provider value={{ mobileData, homeKitchen, groceryDataCate, beautyData, fragrance }}>
             <Col sm={7} className='colFlex-1' style={{ height: 92 + "vh", overflowY: "scroll" }}>
                 <Tab.Content>
                     <Tab.Pane eventKey={pDataCate.keyEvent} >
@@ -45,7 +46,7 @@ function ListSubCate({ pDataCate }) {
                         </div>
                     </Tab.Pane>
                     {<SubSubCateList
-                        data={{ mobileData, homeKitchen, groceryData, beautyData }}
+                        data={{ mobileData, homeKitchen, groceryData, beautyData, fragrance }}
                     />}
 
 

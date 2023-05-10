@@ -25,7 +25,8 @@ function SubSubCateList() {
     const skinCare = context.beautyData.skinCareData
     const hairCare = context.beautyData.hairCareData
     const personalCare = context.beautyData.personalCareData
-    console.log(hairCare);
+    const beautyTopBrands = context.beautyData.topBrandsData
+    // console.log(hairCare);
 
     return <>
         <Tab.Pane eventKey={smartPhone.eventKey}>
@@ -69,6 +70,9 @@ function SubSubCateList() {
         </Tab.Pane>
         <Tab.Pane eventKey={personalCare.eventKey}>
             <MobCategories data={personalCare} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={beautyTopBrands.eventKey}>
+            <MobCategories data={beautyTopBrands} />
         </Tab.Pane>
     </>
 }

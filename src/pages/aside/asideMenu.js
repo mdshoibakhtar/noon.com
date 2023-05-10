@@ -25,7 +25,7 @@ export const menuData = {
         {
             id: "5",
             eventKey: "4",
-            menuItem: "Beauty"
+            menuItem: "Beauty & Personal Care"
         },
         {
             id: "6",

@@ -14,7 +14,7 @@ import { homeToolsDataCate } from '../mockDcategories/homeToolsMock';
 import { homeDecorDataCate } from '../mockDcategories/homeDecorMock';
 import { bathingBedingDataCate } from '../mockDcategories/homeBathBed';
 import { groceryDataCate } from '../mockDcategories/grocriesMock';
-import { beautyMakupDataCate, skinCareData, hairCareData, personalCareData } from '../mockDcategories/mackeupMock';
+import { beautyMakupDataCate, skinCareData, hairCareData, personalCareData, topBrandsData } from '../mockDcategories/mackeupMock';
 
 
 
@@ -23,15 +23,15 @@ function ListSubCate({ pDataCate }) {
     const [mobileData] = useState({ mobBannData, mobDataCate, mobAcceDataCate, topBrandsCate })
     const [homeKitchen] = useState({ homeKitBann, homeKitDataCate, homeFurnitureDataCate, homeToolsDataCate, homeDecorDataCate, bathingBedingDataCate })
     const [groceryData] = useState({ groceryDataCate })
-    const [beautyData] = useState({ beautyBannner, beautyMakupDataCate, skinCareData, hairCareData, personalCareData })
+    const [beautyData] = useState({ beautyBannner, beautyMakupDataCate, skinCareData, hairCareData, personalCareData, topBrandsData })
 
     return <>
 
         <parentslistcomponent.Provider value={{ mobileData, homeKitchen, groceryDataCate, beautyData }}>
             <Col sm={7} className='colFlex-1' style={{ height: 92 + "vh", overflowY: "scroll" }}>
                 <Tab.Content>
-                    <Tab.Pane eventKey={pDataCate.keyEvent}>
-                        <div className='sc-d68ddef2-2 derWoS overflow-auto' style={{ height: 100 + "vh" }}>
+                    <Tab.Pane eventKey={pDataCate.keyEvent} >
+                        <div className='sc-d68ddef2-2 derWoS overflow-auto active' style={{ height: 100 + "vh" }}>
                             <div className='sc-39ccbf76-0 eObXqj'>
                                 <p className="sc-39ccbf76-1 lHgYk">{pDataCate.headTitle1}</p>
                                 <p className="sc-39ccbf76-1 lHgYk">{pDataCate.headTitle2}</p>

@@ -43,6 +43,19 @@ import personalCare8 from "../../../components/assetes/images/categoriesPageImg/
 import personalCare9 from "../../../components/assetes/images/categoriesPageImg/beautyimg/pc-9.png"
 // Personal Care Data end
 
+
+// top brands start
+import topBrands1 from "../../../components/assetes/images/categoriesPageImg/beautyimg/tp-1.png"
+import topBrands2 from "../../../components/assetes/images/categoriesPageImg/beautyimg/tp-2.png"
+import topBrands3 from "../../../components/assetes/images/categoriesPageImg/beautyimg/tp-3.png"
+import topBrands4 from "../../../components/assetes/images/categoriesPageImg/beautyimg/tp-4.png"
+import topBrands5 from "../../../components/assetes/images/categoriesPageImg/beautyimg/tp-5.png"
+import topBrands6 from "../../../components/assetes/images/categoriesPageImg/beautyimg/tp-6.png"
+import topBrands7 from "../../../components/assetes/images/categoriesPageImg/beautyimg/tp-7.png"
+import topBrands8 from "../../../components/assetes/images/categoriesPageImg/beautyimg/tp-8.png"
+import topBrands9 from "../../../components/assetes/images/categoriesPageImg/beautyimg/tp-9.png"
+// top brands end
+
 // makeup Data start
 export const beautyMakupDataCate = {
     accordianTitle: "Makeup",
@@ -239,6 +252,54 @@ export const personalCareData = {
     ]
 }
 // personal Care end
+
+// top Brands data start
+export const topBrandsData = {
+    accordianTitle: "Top Brands",
+    eventKey: "4",
+    data: [
+        {
+            id: "1",
+            mobImg: topBrands1,
+
+
+        },
+        {
+            id: "2",
+            mobImg: topBrands2,
+        },
+        {
+            id: "3",
+            mobImg: topBrands3,
+        },
+        {
+            id: "4",
+            mobImg: topBrands4,
+        },
+        {
+            id: "5",
+            mobImg: topBrands5,
+        },
+        {
+            id: "6",
+            mobImg: topBrands6,
+        },
+        {
+            id: "7",
+            mobImg: topBrands7,
+        },
+        {
+            id: "8",
+            mobImg: topBrands8,
+        },
+        {
+            id: "9",
+            mobImg: topBrands9,
+        },
+
+    ]
+}
+// top Brands data end
 
 
 

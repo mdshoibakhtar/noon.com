@@ -1,84 +1,86 @@
-export const asideData = {
+export const menuData = {
+
     data: [
         {
             id: "1",
-            eventKey: "first",
-            menuItem: "Just for you"
+            eventKey: "0",
+            menuItem: "Just for you",
+            act: "active",
         },
         {
             id: "2",
-            eventKey: "second",
-            menuItem: "Mobiles &amp; Accessories"
+            eventKey: "1",
+            menuItem: "Mobiles  Accessories"
         },
         {
             id: "3",
-            eventKey: "third",
-            menuItem: "Home &amp; Kitchen"
+            eventKey: "2",
+            menuItem: "Home  Kitchen"
         },
         {
             id: "4",
-            eventKey: "fourth",
+            eventKey: "3",
             menuItem: "Grocery"
         },
         {
             id: "5",
-            eventKey: "fifth",
+            eventKey: "4",
             menuItem: "Beauty"
         },
         {
             id: "6",
-            eventKey: "six",
+            eventKey: "5",
             menuItem: "Fragrance"
         },
         {
             id: "7",
-            eventKey: "seven",
-            menuItem: "Laptops &amp; Accessories"
+            eventKey: "6",
+            menuItem: "Laptops  Accessories"
         },
         {
             id: "8",
-            eventKey: "eight",
+            eventKey: "7",
             menuItem: "Electronics"
         },
         {
             id: "9",
-            eventKey: "ninth",
+            eventKey: "8",
             menuItem: "Men's Fashion"
         },
         {
             id: "10",
-            eventKey: "tenth",
+            eventKey: "9",
             menuItem: "Appliances"
         },
         {
             id: "11",
-            eventKey: "eleven",
+            eventKey: "10",
             menuItem: "Baby"
         },
         {
             id: "12",
-            eventKey: "Toys",
+            eventKey: "11",
             menuItem: "Just for you"
         },
         {
             id: "13",
-            eventKey: "thirteen",
-            menuItem: "Sports &amp; Outdoors"
+            eventKey: "12",
+            menuItem: "Sports  Outdoors"
         },
         {
             id: "14",
-            eventKey: "fourteen",
-            menuItem: "Health &amp; Nutrition"
+            eventKey: "13",
+            menuItem: "Health  Nutrition"
         },
         {
             id: "15",
-            eventKey: "fifteen",
+            eventKey: "14",
             menuItem: "Kids’ Fashion"
         },
         {
             id: "16",
-            eventKey: "sixteen",
-            menuItem: "Health &amp; Nutrition"
+            eventKey: "15",
+            menuItem: "Health  Nutrition"
         },
 
 

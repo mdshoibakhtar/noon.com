@@ -7,6 +7,7 @@ import p6 from "../../../components/assetes/images/categoriesPageImg/"
 
 export const mobAccessData = {
     accordianTitle: "SmartPhone",
+    eventKey: "1",
     title: "Mobiles &amp; Accessories",
     data: [
         {

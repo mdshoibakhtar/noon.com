@@ -96,6 +96,9 @@ video {
 *::-webkit-scrollbar {
   display: none;
 }
+.accordion-item, .accordion-button{
+  background-color: #f7f7fa !important;
+}
 a {
   text-decoration: none;
 }
@@ -562,7 +565,7 @@ img {
   background: rgb(240, 242, 247);
   padding:  8px ;
   border-left: 3px solid transparent;
-  font-size: 13px !important;
+  font-size: 11px !important;
   color: #404553 !important;
   font-weight: 400;
   text-decoration: none;
@@ -611,6 +614,7 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: 0px !important;
-}.heNSDb a{
+}
+.heNSDb a{
   text-decoration: none;
 }

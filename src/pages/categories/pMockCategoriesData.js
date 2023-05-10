@@ -18,10 +18,11 @@ import cd17 from "../../components/assetes/images/categoriesPageImg/categororyCa
 import cd18 from "../../components/assetes/images/categoriesPageImg/categororyCardImg/tp-18.jpg"
 import cd19 from "../../components/assetes/images/categoriesPageImg/categororyCardImg/tp-19.png"
 export const pDataCate = {
-    keyEvent: "first",
+    keyEvent: "0",
     id: "1",
     headTitle1: "Recently Viewed Categories",
     headTitle2: "noon Top Picks",
+
 
     data: [
         {

@@ -6,8 +6,8 @@ import p5 from "../../../components/assetes/images/categoriesPageImg/mobAcces/mo
 import p6 from "../../../components/assetes/images/categoriesPageImg/mobAcces/mob-A-6.png"
 
 export const mobDataCate = {
-    accordianTitle: "Smart Phone",
-    title: "Mobiles &amp; Accessories",
+    accordianTitle: "Smartphones",
+    eventKey: "1",
     data: [
         {
             id: "1",

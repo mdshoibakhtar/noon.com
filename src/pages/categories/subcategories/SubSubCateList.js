@@ -8,7 +8,6 @@ import { parentslistcomponent } from '../../../components/mainSection/myContext'
 function SubSubCateList() {
 
     const context = useContext(parentslistcomponent)
-    // console.log(context);
     const mobileBanner = context.mobileData.mobBannData
     const smartPhone = context.mobileData.mobDataCate
     const mobileAccesories = context.mobileData.mobAcceDataCate
@@ -38,7 +37,9 @@ function SubSubCateList() {
     const eletronicBanner = context.electronic.electronicsData
     const ledTV = context.electronic.ledData
     const homeEntertainmentData = context.electronic.homeEntertainment
-    console.log(homeEntertainmentData);
+    const gaming = context.electronic.gameingData
+    const headphoneSpeakers = context.electronic.headPhoneData
+    console.log(headphoneSpeakers);
 
     return <>
         <Tab.Pane eventKey={smartPhone.eventKey}>
@@ -115,6 +116,12 @@ function SubSubCateList() {
         </Tab.Pane>
         <Tab.Pane eventKey={eletronicBanner.eventKey}>
             <MobCategories data={homeEntertainmentData} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={gaming.eventKey}>
+            <MobCategories data={gaming} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={gaming.eventKey}>
+            <MobCategories data={headphoneSpeakers} />
         </Tab.Pane>
     </>
 }

@@ -17,7 +17,7 @@ import { groceryDataCate } from '../mockDcategories/grocriesMock';
 import { beautyMakupDataCate, skinCareData, hairCareData, personalCareData, topBrandsData } from '../mockDcategories/mackeupMock';
 import { womensFragranceData, menFragranceData, topBrandFragranceData } from '../mockDcategories/fragnanceMockData';
 import { laptopData, desktopMoniterData, computerAccessoriesData, laptopTopBrands } from '../mockDcategories/laptopMockCategories';
-import { ledData, homeEntertainment } from "../mockDcategories/electricMockData"
+import { ledData, homeEntertainment, gameingData, headPhoneData } from "../mockDcategories/electricMockData"
 
 
 
@@ -29,7 +29,7 @@ function ListSubCate({ pDataCate }) {
     const [beautyData] = useState({ beautyBannner, beautyMakupDataCate, skinCareData, hairCareData, personalCareData, topBrandsData })
     const [fragrance] = useState({ fragranceBanner, womensFragranceData, menFragranceData, topBrandFragranceData, })
     const [laptop] = useState({ laptopAccessories, laptopData, desktopMoniterData, computerAccessoriesData, laptopTopBrands })
-    const [electronic] = useState({ electronicsData, ledData, homeEntertainment })
+    const [electronic] = useState({ electronicsData, ledData, homeEntertainment, gameingData, headPhoneData })
     return <>
 
         <parentslistcomponent.Provider value={{ mobileData, homeKitchen, groceryDataCate, beautyData, fragrance, laptop, electronic }}>
@@ -57,5 +57,4 @@ function ListSubCate({ pDataCate }) {
         </parentslistcomponent.Provider>
     </>;
 }
-
 export default ListSubCate;

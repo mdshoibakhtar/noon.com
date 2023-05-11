@@ -7,7 +7,7 @@ import SubSubCateList from './SubSubCateList';
 import { mobDataCate } from '../mockDcategories/mobMockCategories';
 import { mobAcceDataCate } from '../mockDcategories/mobAccessMockCategories';
 import { topBrandsCate } from '../mockDcategories/topbrandsMockCate';
-import { homeKitBann, mobBannData, beautyBannner, fragranceBanner } from '../asideHeaderBann/bannerMockDmobileAcce';
+import { homeKitBann, mobBannData, beautyBannner, fragranceBanner, laptopAccessories, electronicsData } from '../asideHeaderBann/bannerMockDmobileAcce';
 import { homeKitDataCate } from '../mockDcategories/homeKitMock';
 import { homeFurnitureDataCate } from '../mockDcategories/homeFurnitureMock';
 import { homeToolsDataCate } from '../mockDcategories/homeToolsMock';
@@ -15,7 +15,9 @@ import { homeDecorDataCate } from '../mockDcategories/homeDecorMock';
 import { bathingBedingDataCate } from '../mockDcategories/homeBathBed';
 import { groceryDataCate } from '../mockDcategories/grocriesMock';
 import { beautyMakupDataCate, skinCareData, hairCareData, personalCareData, topBrandsData } from '../mockDcategories/mackeupMock';
-import { womensFragranceData, menFragranceData } from '../mockDcategories/fragnanceMockData';
+import { womensFragranceData, menFragranceData, topBrandFragranceData } from '../mockDcategories/fragnanceMockData';
+import { laptopData, desktopMoniterData, computerAccessoriesData, laptopTopBrands } from '../mockDcategories/laptopMockCategories';
+import { ledData, homeEntertainment } from "../mockDcategories/electricMockData"
 
 
 
@@ -25,13 +27,15 @@ function ListSubCate({ pDataCate }) {
     const [homeKitchen] = useState({ homeKitBann, homeKitDataCate, homeFurnitureDataCate, homeToolsDataCate, homeDecorDataCate, bathingBedingDataCate })
     const [groceryData] = useState({ groceryDataCate })
     const [beautyData] = useState({ beautyBannner, beautyMakupDataCate, skinCareData, hairCareData, personalCareData, topBrandsData })
-    const [fragrance] = useState({ fragranceBanner, womensFragranceData, menFragranceData, })
+    const [fragrance] = useState({ fragranceBanner, womensFragranceData, menFragranceData, topBrandFragranceData, })
+    const [laptop] = useState({ laptopAccessories, laptopData, desktopMoniterData, computerAccessoriesData, laptopTopBrands })
+    const [electronic] = useState({ electronicsData, ledData, homeEntertainment })
     return <>
 
-        <parentslistcomponent.Provider value={{ mobileData, homeKitchen, groceryDataCate, beautyData, fragrance }}>
-            <Col sm={7} className='colFlex-1' style={{ height: 92 + "vh", overflowY: "scroll" }}>
-                <Tab.Content>
-                    <Tab.Pane eventKey={pDataCate.keyEvent} >
+        <parentslistcomponent.Provider value={{ mobileData, homeKitchen, groceryDataCate, beautyData, fragrance, laptop, electronic }}>
+            <Col sm={9} className='colFlex-1' style={{ overflowY: "scroll" }}>
+                <Tab.Content defaultactivekey={pDataCate.keyEvent}>
+                    <Tab.Pane eventKey={pDataCate.keyEvent}   >
                         <div className='sc-d68ddef2-2 derWoS overflow-auto active' style={{ height: 100 + "vh" }}>
                             <div className='sc-39ccbf76-0 eObXqj'>
                                 <p className="sc-39ccbf76-1 lHgYk">{pDataCate.headTitle1}</p>
@@ -45,11 +49,9 @@ function ListSubCate({ pDataCate }) {
                             </div>
                         </div>
                     </Tab.Pane>
-                    {<SubSubCateList
-                        data={{ mobileData, homeKitchen, groceryData, beautyData, fragrance }}
-                    />}
-
-
+                    <SubSubCateList
+                        data={{ mobileData, homeKitchen, groceryData, beautyData, fragrance, laptop, electronic }}
+                    />
                 </Tab.Content>
             </Col>
         </parentslistcomponent.Provider>

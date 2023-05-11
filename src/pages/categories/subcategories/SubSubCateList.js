@@ -29,7 +29,16 @@ function SubSubCateList() {
     const fragranceBanner = context.fragrance.fragranceBanner
     const womenFragrance = context.fragrance.womensFragranceData
     const menFragrance = context.fragrance.menFragranceData
-    console.log(menFragrance);
+    const topFragrance = context.fragrance.topBrandFragranceData
+    const laptopBanner = context.laptop.laptopAccessories
+    const laptop = context.laptop.laptopData
+    const desktopmoniter = context.laptop.desktopMoniterData
+    const computerAcce = context.laptop.computerAccessoriesData
+    const compTopBrands = context.laptop.laptopTopBrands
+    const eletronicBanner = context.electronic.electronicsData
+    const ledTV = context.electronic.ledData
+    const homeEntertainmentData = context.electronic.homeEntertainment
+    console.log(homeEntertainmentData);
 
     return <>
         <Tab.Pane eventKey={smartPhone.eventKey}>
@@ -83,6 +92,29 @@ function SubSubCateList() {
         </Tab.Pane>
         <Tab.Pane eventKey={menFragrance.eventKey}>
             <MobCategories data={menFragrance} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={topFragrance.eventKey}>
+            <MobCategories data={topFragrance} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={laptopBanner.eventKey}>
+            <AsideHeaderBann bannerData={laptopBanner} />
+            <MobCategories data={laptop} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={laptopBanner.eventKey}>
+            <MobCategories data={desktopmoniter} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={laptopBanner.eventKey}>
+            <MobCategories data={computerAcce} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={laptopBanner.eventKey}>
+            <MobCategories data={compTopBrands} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={eletronicBanner.eventKey}>
+            <AsideHeaderBann bannerData={eletronicBanner} />
+            <MobCategories data={ledTV} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={eletronicBanner.eventKey}>
+            <MobCategories data={homeEntertainmentData} />
         </Tab.Pane>
     </>
 }

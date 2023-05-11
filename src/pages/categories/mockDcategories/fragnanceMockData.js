@@ -17,6 +17,16 @@ import men4 from "../../../components/assetes/images/categoriesPageImg/fragnance
 import men5 from "../../../components/assetes/images/categoriesPageImg/fragnanceImg/mf-5.png"
 import men6 from "../../../components/assetes/images/categoriesPageImg/fragnanceImg/wf-9.png"
 
+import ftb1 from "../../../components/assetes/images/categoriesPageImg/fragnanceImg/ftb-1.png"
+import ftb2 from "../../../components/assetes/images/categoriesPageImg/fragnanceImg/ftb-2.png"
+import ftb3 from "../../../components/assetes/images/categoriesPageImg/fragnanceImg/ftb-3.png"
+import ftb4 from "../../../components/assetes/images/categoriesPageImg/fragnanceImg/ftb-4.png"
+import ftb5 from "../../../components/assetes/images/categoriesPageImg/fragnanceImg/ftb-5.png"
+import ftb6 from "../../../components/assetes/images/categoriesPageImg/fragnanceImg/ftb-6.png"
+import ftb7 from "../../../components/assetes/images/categoriesPageImg/fragnanceImg/ftb-7.png"
+import ftb8 from "../../../components/assetes/images/categoriesPageImg/fragnanceImg/ftb-8.png"
+import ftb9 from "../../../components/assetes/images/categoriesPageImg/fragnanceImg/ftb-9.png"
+
 export const womensFragranceData = {
     accordianTitle: "Women's Fragrances",
     eventKey: "5",
@@ -69,12 +79,8 @@ export const womensFragranceData = {
     ]
 }
 
-
-
-
-
 export const menFragranceData = {
-    accordianTitle: "men's Fragrances",
+    accordianTitle: "Men's Fragrances",
     eventKey: "5",
     data: [
         {
@@ -106,6 +112,61 @@ export const menFragranceData = {
         {
             id: "6",
             mobImg: men6,
+            title: "Covers"
+        },
+
+    ]
+}
+
+
+export const topBrandFragranceData = {
+    accordianTitle: "Top Brands",
+    eventKey: "5",
+    data: [
+        {
+            id: "1",
+            mobImg: ftb1,
+            title: "iHeadphones & Earphonesphone",
+
+        },
+        {
+            id: "2",
+            mobImg: ftb2,
+            title: "Power Banks",
+        },
+        {
+            id: "3",
+            mobImg: ftb3,
+            title: "Portable Speakers"
+        },
+        {
+            id: "4",
+            mobImg: ftb4,
+            title: "Data Cables"
+        },
+        {
+            id: "5",
+            mobImg: ftb5,
+            title: "Chargers"
+        },
+        {
+            id: "6",
+            mobImg: ftb6,
+            title: "Covers"
+        },
+        {
+            id: "7",
+            mobImg: ftb7,
+            title: "Covers"
+        },
+        {
+            id: "8",
+            mobImg: ftb8,
+            title: "Covers"
+        },
+        {
+            id: "9",
+            mobImg: ftb9,
             title: "Covers"
         },
 

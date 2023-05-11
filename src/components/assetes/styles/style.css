@@ -96,15 +96,14 @@ video {
 *::-webkit-scrollbar {
   display: none;
 }
+.sticky {
+  position: sticky;
+  top: 0;
+  justify-content: flex-start;
+}
 .accordion-item, .accordion-button{
   background-color: #f7f7fa !important;
 }
-/* .sticky{
-  background-color: red;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-} */
 a {
   text-decoration: none;
 }
@@ -469,14 +468,12 @@ img {
 }
 @media only screen and (max-width: 479px) {
   .jIghwg {
-    width: 40%;
     display: inline-block;
     vertical-align: top;
     white-space: initial;
   }
 }
 .jIghwg {
-  /* width: 18%; */
   display: inline-block;
   vertical-align: top;
   white-space: initial;
@@ -561,7 +558,6 @@ img {
 }
 .bSlXHD {
   display: flex;
-  width: 110px;
   box-sizing: border-box;
   text-align: center;
   -webkit-box-align: center;
@@ -571,7 +567,6 @@ img {
   background: rgb(240, 242, 247);
   padding:  8px ;
   border-left: 3px solid transparent;
-  font-size: 11px !important;
   color: #404553 !important;
   font-weight: 400;
   text-decoration: none;

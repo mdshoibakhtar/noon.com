@@ -2,10 +2,10 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 function AsideHeaderBann({ bannerData }) {
-    // console.log(bannerData.wrapperImg);
+    // console.log(bannerData.eventKey);
     return (
         <div className='sc-39ccbf76-0 eObXqj'>
-            <p className="sc-39ccbf76-1 lHgYk">{bannerData.htitle}</p>
+            <p className="sc-39ccbf76-1 lHgYk">{bannerData.hTitle}</p>
             <div className="sc-dc3f2d0b-0 oXGMB lHgYk"><Link><div className="sc-dc3f2d0b-1 jOrYib"><img src={bannerData.wrapperImg} alt="bann" className="sc-b51db3f-1 iCVkuj" /><p className="sc-dc3f2d0b-2 cyOHYd"></p></div></Link>
             </div>
         </div>

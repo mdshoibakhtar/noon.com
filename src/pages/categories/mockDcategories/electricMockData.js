@@ -183,6 +183,5 @@ export const headPhoneData = {
             mobImg: headphone6,
             title: "Breakfast Food"
         },
-
     ]
 }

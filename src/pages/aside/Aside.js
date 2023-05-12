@@ -6,7 +6,8 @@ export const Aside = ({ asideMenu }) => {
             <Nav className="flex-column ">
                 {asideMenu.data.map((item) => {
                     return <Nav.Item key={item.id}>
-                        <Nav.Link eventKey={item.eventKey} className='sc-ca4e353a-1 bSlXHD '>{item.menuItem}</Nav.Link>
+                        <Nav.Link eventKey={item.eventKey} className="sc-ca4e353a-1 bSlXHD"
+                            defaultkey={item.eventKey}>{item.menuItem}</Nav.Link>
                     </Nav.Item>
                 })}
             </Nav>

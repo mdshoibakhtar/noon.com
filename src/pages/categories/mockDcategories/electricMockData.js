@@ -27,6 +27,18 @@ import headphone4 from "../../../components/assetes/images/categoriesPageImg/ele
 import headphone5 from "../../../components/assetes/images/categoriesPageImg/electronics/he-5.png"
 import headphone6 from "../../../components/assetes/images/categoriesPageImg/electronics/he-6.png"
 
+
+import watch1 from "../../../components/assetes/images/categoriesPageImg/electronics/w-1.png"
+import watch2 from "../../../components/assetes/images/categoriesPageImg/electronics/w-2.png"
+import watch3 from "../../../components/assetes/images/categoriesPageImg/electronics/w-3.png"
+
+import camera1 from "../../../components/assetes/images/categoriesPageImg/electronics/cam-1.png"
+import camera2 from "../../../components/assetes/images/categoriesPageImg/electronics/cam-2.png"
+import camera3 from "../../../components/assetes/images/categoriesPageImg/electronics/cam-3.png"
+import camera4 from "../../../components/assetes/images/categoriesPageImg/electronics/cam-4.png"
+import camera5 from "../../../components/assetes/images/categoriesPageImg/electronics/cam-5.png"
+import camera6 from "../../../components/assetes/images/categoriesPageImg/electronics/cam-6.png"
+
 export const ledData = {
     accordianTitle: "TVs",
     eventKey: "7",
@@ -181,6 +193,72 @@ export const headPhoneData = {
         {
             id: "6",
             mobImg: headphone6,
+            title: "Breakfast Food"
+        },
+    ]
+}
+
+
+
+
+
+export const weareablesData = {
+    accordianTitle: "Weareables",
+    eventKey: "7",
+    data: [
+        {
+            id: "1",
+            mobImg: watch1,
+            title: "Fresh Produce",
+        },
+        {
+            id: "2",
+            mobImg: watch2,
+            title: "Dairy & Eggs",
+        },
+        {
+            id: "3",
+            mobImg: watch3,
+            title: "Meat & Seafood"
+        },
+    ]
+}
+
+
+
+export const CamerasData = {
+    accordianTitle: "Cameras",
+    eventKey: "7",
+    data: [
+        {
+            id: "1",
+            mobImg: camera1,
+            title: "Fresh Produce",
+        },
+        {
+            id: "2",
+            mobImg: camera2,
+            title: "Dairy & Eggs",
+        },
+        {
+            id: "3",
+            mobImg: camera3,
+            title: "Meat & Seafood"
+        },
+        {
+            id: "4",
+            mobImg: camera4,
+
+            title: "Pantry Staples"
+        },
+        {
+            id: "5",
+            mobImg: camera5,
+            title: "Bread & Bakery"
+        },
+        {
+            id: "6",
+            mobImg: camera6,
             title: "Breakfast Food"
         },
     ]

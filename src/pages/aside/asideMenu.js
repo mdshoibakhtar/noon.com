@@ -5,7 +5,7 @@ export const menuData = {
             id: "1",
             eventKey: "0",
             menuItem: "Just for you",
-            act: "active",
+            activeClass: "active",
         },
         {
             id: "2",
@@ -50,38 +50,63 @@ export const menuData = {
         {
             id: "10",
             eventKey: "9",
-            menuItem: "Appliances"
+            menuItem: "Women's Fashion"
         },
         {
             id: "11",
             eventKey: "10",
-            menuItem: "Baby"
+            menuItem: "Appliances"
         },
         {
             id: "12",
             eventKey: "11",
-            menuItem: "Just for you"
+            menuItem: "Baby"
         },
         {
             id: "13",
             eventKey: "12",
-            menuItem: "Sports  Outdoors"
+            menuItem: "Toys"
         },
+
         {
             id: "14",
             eventKey: "13",
-            menuItem: "Health  Nutrition"
+            menuItem: "Sports  Outdoors"
         },
         {
             id: "15",
             eventKey: "14",
-            menuItem: "Kids’ Fashion"
+            menuItem: "Health  Nutrition"
         },
         {
             id: "16",
             eventKey: "15",
-            menuItem: "Health  Nutrition"
+            menuItem: "Kids’ Fashion"
         },
+        {
+            id: "17",
+            eventKey: "16",
+            menuItem: "Watches, eyewear & jewellery"
+        },
+
+        {
+            id: "18",
+            eventKey: "17",
+            menuItem: "Office Supplies, Books & Media"
+        },
+
+        {
+            id: "19",
+            eventKey: "18",
+            menuItem: "Pet Supplies"
+        },
+
+        {
+            id: "20",
+            eventKey: "19",
+            menuItem: "Automotive"
+        },
+
 
 
     ]

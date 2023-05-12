@@ -558,6 +558,7 @@ img {
 }
 .bSlXHD {
   display: flex;
+  font-size: 14px !important;
   box-sizing: border-box;
   text-align: center;
   -webkit-box-align: center;

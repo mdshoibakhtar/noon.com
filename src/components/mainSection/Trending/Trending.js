@@ -79,10 +79,23 @@ export const Trending = () => {
                     <img src={expMore} alt="idbpng" />
                 </figure>
             </div>
+
+
+            {/* explore More */}
+
+
             <Slider {...settings} className="px-2" style={{ background: "#faf8a5" }}>
                 {expData.map((value) => {
-                    return <Link key={value.id} className="p-2 text-decoration-none"  >
-                        <div className="sc-iAvgwm jIghwg bannerContainer bannerModuleCarousel " style={{ flex: '0 0 calc(28.5714% - 0px)', padding: "0px 7px 7px 0px" }}><div><Link href="/uae-en/__PWA/gift-cards?page=buy"><div className="sc-kgflAQ dLheIH bannerModuleCarousel standardBanner"><div className="lazyload-wrapper "><div className="sc-hHLeRK jDQxLl"><img src={value.expImg} alt="noonpayPWA:///gift-cards?page=buy" className="sc-ivTmOn fRXJso" /></div></div></div></Link></div></div>
+                    return <Link key={value.id} className="p-2 text-decoration-none">
+                        <div className="sc-iAvgwm jIghwg bannerContainer bannerModuleCarousel " style={{ flex: '0 0 calc(28.   5714% - 0px)', padding: "0px 7px 7px 0px" }}>
+                            <div className="sc-kgflAQ dLheIH bannerModuleCarousel standardBanner">
+                                <div className="lazyload-wrapper ">
+                                    <div className="sc-hHLeRK jDQxLl">
+                                        <img src={value.expImg} alt="fdshtf" className="sc-ivTmOn fRXJso" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </Link>
                 })}
             </Slider>

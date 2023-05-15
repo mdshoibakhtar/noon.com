@@ -70,7 +70,37 @@ function SubSubCateList() {
     const appliancesLarge = context.applincess.largeAppliancesData
     const healthcooling = context.applincess.HealthCoolingData
     const topBrandappliances = context.applincess.topBrandappliancesData
-    // console.log(applincess);
+    const babyBrand = context.baby.babyBanner
+    const babytransport = context.baby.babyTransportData
+    const diapringData = context.baby.diapring
+    const nursingFeedingD = context.baby.nursingFeeding
+    const bathingSkinCareD = context.baby.bathingSkinCare
+    const nursery = context.baby.nurseryData
+    const babyKidD = context.baby.babyKid
+    const babyBrands = context.baby.babyBrandsData
+
+    const toysBanners = context.toys.toysBanner
+    const toysBrands = context.toys.toysBrandsData
+    const sportsOutdoors = context.toys.sportsAndoutdooorsplayDataS
+    const indoorEntertainment = context.toys.indoorsEntertainmaintDatas
+    const partyEssential = context.toys.partyEssential
+    const babbyToddler = context.toys.babyTodlerToysData
+    const sportsBanners = context.sports.sportsBanner
+    const exerciseFitness = context.sports.exerciseFitnessDataS
+    const outDoorsSportst = context.sports.outDoorsSportstDatas
+    const SportsNutritions = context.sports.SportsNutritionData
+    const scooterSkating = context.sports.scooterSkatingData
+    const sportsBrands = context.sports.sportsBrandsData
+    // sportsBanner, exerciseFitnessDataS, outDoorsSportstDatas, SportsNutrition, scooterSkatingData, sportsBrandsData
+
+    const healthBanner = context.healthNutrition.healthNutritionbann
+    const medicalSuplies = context.healthNutrition.medicalSuplies
+    const selfMedication = context.healthNutrition.selfMedication
+    const VitaminsAndSuplements = context.healthNutrition.VitaminsSupplements
+    const familyPlanning = context.healthNutrition.familyPlaningData
+    console.log(healthBanner);
+
+
 
 
     return <>
@@ -221,6 +251,88 @@ function SubSubCateList() {
             <MobCategories data={topBrandappliances} />
         </Tab.Pane>
 
+        <Tab.Pane eventKey={babyBrand.eventKey}>
+            <AsideHeaderBann bannerData={babyBrand} />
+            <MobCategories data={diapringData} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={nursingFeedingD.eventKey}>
+            <MobCategories data={nursingFeedingD} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={diapringData.eventKey}>
+            <MobCategories data={babytransport} />
+        </Tab.Pane>
+
+
+        <Tab.Pane eventKey={nursery.eventKey}>
+            <MobCategories data={nursery} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={bathingSkinCareD.eventKey}>
+            <MobCategories data={bathingSkinCareD} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={babyKidD.eventKey}>
+            <MobCategories data={babyKidD} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={babyBrands.eventKey}>
+            <MobCategories data={babyBrands} />
+        </Tab.Pane>
+        {/*  */}
+        <Tab.Pane eventKey={toysBanners.eventKey}>
+            <AsideHeaderBann bannerData={toysBanners} />
+            <MobCategories data={sportsOutdoors} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={indoorEntertainment.eventKey}>
+            <MobCategories data={indoorEntertainment} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={partyEssential.eventKey}>
+            <MobCategories data={partyEssential} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={indoorEntertainment.eventKey}>
+            <MobCategories data={indoorEntertainment} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={babbyToddler.eventKey}>
+            <MobCategories data={babbyToddler} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={toysBrands.eventKey}>
+            <MobCategories data={toysBrands} />
+        </Tab.Pane>
+
+        <Tab.Pane eventKey={sportsBanners.eventKey}>
+            <AsideHeaderBann bannerData={sportsBanners} />
+            <MobCategories data={exerciseFitness} />
+        </Tab.Pane>
+
+        <Tab.Pane eventKey={SportsNutritions.eventKey}>
+            <MobCategories data={SportsNutritions} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={outDoorsSportst.eventKey}>
+            <MobCategories data={outDoorsSportst} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={scooterSkating.eventKey}>
+            <MobCategories data={scooterSkating} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={sportsBrands.eventKey}>
+            <MobCategories data={sportsBrands} />
+        </Tab.Pane>
+
+
+
+        <Tab.Pane eventKey={healthBanner.eventKey}>
+            <AsideHeaderBann bannerData={healthBanner} />
+            <MobCategories data={medicalSuplies}
+            />
+        </Tab.Pane>
+        <Tab.Pane eventKey={medicalSuplies.eventKey}>
+            <MobCategories data={medicalSuplies} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={selfMedication.eventKey}>
+            <MobCategories data={selfMedication} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={VitaminsAndSuplements.eventKey}>
+            <MobCategories data={VitaminsAndSuplements} />
+        </Tab.Pane>
+        <Tab.Pane eventKey={familyPlanning.eventKey}>
+            <MobCategories data={familyPlanning} />
+        </Tab.Pane>
     </>
 }
 

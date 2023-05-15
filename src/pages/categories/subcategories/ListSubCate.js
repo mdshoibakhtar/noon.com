@@ -7,7 +7,7 @@ import SubSubCateList from './SubSubCateList';
 import { mobDataCate } from '../mockDcategories/mobMockCategories';
 import { mobAcceDataCate } from '../mockDcategories/mobAccessMockCategories';
 import { topBrandsCate } from '../mockDcategories/topbrandsMockCate';
-import { homeKitBann, mobBannData, beautyBannner, fragranceBanner, laptopAccessories, electronicsData, menfasshionBannerHeader, menfasshionBannerfooter, wmenfasshionBannerHeader, wmenfasshionBannerfooter, applianceBanner } from '../asideHeaderBann/bannerMockDmobileAcce';
+import { homeKitBann, mobBannData, beautyBannner, fragranceBanner, laptopAccessories, electronicsData, menfasshionBannerHeader, menfasshionBannerfooter, wmenfasshionBannerHeader, wmenfasshionBannerfooter, applianceBanner, babyBanner, toysBanner, sportsBanner, healthNutritionbann } from '../asideHeaderBann/bannerMockDmobileAcce';
 import { homeKitDataCate } from '../mockDcategories/homeKitMock';
 import { homeFurnitureDataCate } from '../mockDcategories/homeFurnitureMock';
 import { homeToolsDataCate } from '../mockDcategories/homeToolsMock';
@@ -23,6 +23,10 @@ import { springSummerData, clothingData, footwereData, sportsEssentialsData, bag
 import { wspringSummerData, wclothingData, wfootwereData, wsportsEssentialsData, wbagsAndAccessories, wfashionBrandsData } from "../mockDcategories/womenFashionMock"
 
 import { smallAppliancesData, largeAppliancesData, HealthCoolingData, topBrandappliancesData } from "../mockDcategories/aplincessMock"
+import { babyTransportData, diapring, nursingFeeding, bathingSkinCare, nurseryData, babyKid, babyBrandsData } from "../mockDcategories/babyDmock"
+import { sportsAndoutdooorsplayDataS, indoorsEntertainmaintDatas, partyEssential, babyTodlerToysData, toysBrandsData } from "../mockDcategories/toyDmock"
+import { exerciseFitnessDataS, outDoorsSportstDatas, SportsNutritionData, scooterSkatingData, sportsBrandsData } from "../mockDcategories/sportsMockData"
+import { medicalSuplies, selfMedication, VitaminsSupplements, familyPlaningData, } from "../mockDcategories/healthNutritionmockData"
 
 
 
@@ -39,9 +43,13 @@ function ListSubCate({ pDataCate }) {
     const [womensFashion] = useState({ wmenfasshionBannerHeader, wmenfasshionBannerfooter, wspringSummerData, wclothingData, wfootwereData, wsportsEssentialsData, wbagsAndAccessories, wfashionBrandsData })
 
     const [applincess] = useState({ applianceBanner, smallAppliancesData, largeAppliancesData, HealthCoolingData, topBrandappliancesData })
+    const [baby] = useState({ babyBanner, babyTransportData, diapring, nursingFeeding, bathingSkinCare, nurseryData, babyKid, babyBrandsData })
+    const [toys] = useState({ toysBanner, sportsAndoutdooorsplayDataS, indoorsEntertainmaintDatas, partyEssential, babyTodlerToysData, toysBrandsData })
+    const [sports] = useState({ sportsBanner, exerciseFitnessDataS, outDoorsSportstDatas, SportsNutritionData, scooterSkatingData, sportsBrandsData })
+    const [healthNutrition] = useState({ healthNutritionbann, medicalSuplies, selfMedication, VitaminsSupplements, familyPlaningData, sportsBrandsData })
     return <>
 
-        <parentslistcomponent.Provider value={{ mobileData, homeKitchen, groceryDataCate, beautyData, fragrance, laptop, electronic, menFashion, womensFashion, applincess }}>
+        <parentslistcomponent.Provider value={{ mobileData, homeKitchen, groceryDataCate, beautyData, fragrance, laptop, electronic, menFashion, womensFashion, applincess, baby, toys, sports, healthNutrition }}>
             <Col sm={9} className='colFlex-1' style={{ overflowY: "scroll" }}>
                 <Tab.Content defaultactivekey={pDataCate.keyEvent} >
                     <Tab.Pane eventKey={pDataCate.keyEvent}>
@@ -59,7 +67,7 @@ function ListSubCate({ pDataCate }) {
                         </div>
                     </Tab.Pane>
                     <SubSubCateList
-                        data={{ mobileData, homeKitchen, groceryData, beautyData, fragrance, laptop, electronic, menFashion, womensFashion, applincess }}
+                        data={{ mobileData, homeKitchen, groceryData, beautyData, fragrance, laptop, electronic, menFashion, womensFashion, applincess, baby, toys, sports, healthNutrition }}
                     />
                 </Tab.Content>
             </Col>

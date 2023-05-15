@@ -177,48 +177,39 @@ export const topBrandappliancesData = {
         {
             id: "1",
             mobImg: ftb1,
-            title: "iHeadphones & Earphonesphone",
 
         },
         {
             id: "2",
             mobImg: ftb2,
-            title: "Power Banks",
         },
         {
             id: "3",
             mobImg: ftb3,
-            title: "Portable Speakers"
         },
         {
             id: "4",
             mobImg: ftb4,
-            title: "Data Cables"
         },
         {
             id: "5",
             mobImg: ftb5,
-            title: "Chargers"
         },
         {
             id: "6",
             mobImg: ftb6,
-            title: "Covers"
         },
         {
             id: "7",
             mobImg: ftb7,
-            title: "Covers"
         },
         {
             id: "8",
             mobImg: ftb8,
-            title: "Covers"
         },
         {
             id: "9",
             mobImg: ftb9,
-            title: "Covers"
         },
 
     ]

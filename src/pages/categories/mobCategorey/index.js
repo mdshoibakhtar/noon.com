@@ -7,7 +7,11 @@ function MobCategories({ data }) {
         <div className="sc-39ccbf76-0 eObXqj" >
             <Accordion defaultctivekey="first">
                 <Accordion.Item eventKey="first">
-                    <Accordion.Header>{data.accordianTitle}</Accordion.Header>
+                    <Accordion.Header>
+                        <p className='sc-ab9de587-2 jGUiVz'>
+                            {data.accordianTitle}
+                        </p>
+                    </Accordion.Header>
                     <Accordion.Body>
                         <div className='sc-ab9de587-0 PHrha'>
                             <div className='sc-dc3f2d0b-0 heNSDb'>

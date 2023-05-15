@@ -162,50 +162,42 @@ export const laptopTopBrands = {
         {
             id: "1",
             mobImg: ltb1,
-            title: "iHeadphones & Earphonesphone",
+
 
         },
         {
             id: "2",
             mobImg: ltb2,
-            title: "Power Banks",
+
         },
         {
             id: "3",
             mobImg: ltb3,
-            title: "Portable Speakers"
         },
         {
             id: "4",
             mobImg: ltb4,
-            title: "Data Cables"
         },
         {
             id: "5",
             mobImg: ltb5,
-            title: "Chargers"
         },
         {
             id: "6",
             mobImg: ltb6,
-            title: "Covers"
         },
         {
             id: "7",
             mobImg: ltb7,
-            title: "Covers"
         },
         {
             id: "8",
             mobImg: ltb8,
-            title: "Covers"
         },
         {
             id: "9",
             mobImg: ltb9,
-            title: "Covers"
         },
-
 
 
     ]

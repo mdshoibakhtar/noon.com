@@ -303,47 +303,40 @@ export const fashionBrandsData = {
         {
             id: "1",
             mobImg: tbrands1,
-            title: "iHeadphones & Earphonesphone"
+
         },
         {
             id: "2",
             mobImg: tbrands2,
-            title: "Power tbrandsnks"
+
         },
         {
             id: "3",
             mobImg: tbrands3,
-            title: "Portable Speakers"
         },
         {
             id: "4",
             mobImg: tbrands4,
-            title: "Data Cables"
         },
         {
             id: "5",
             mobImg: tbrands5,
-            title: "Chargers"
         },
         {
             id: "6",
             mobImg: tbrands6,
-            title: "Covers"
         },
         {
             id: "7",
             mobImg: tbrands7,
-            title: "Covers"
         },
         {
             id: "8",
             mobImg: tbrands8,
-            title: "Covers"
         },
         {
             id: "9",
             mobImg: tbrands9,
-            title: "Covers"
         },
 
     ]

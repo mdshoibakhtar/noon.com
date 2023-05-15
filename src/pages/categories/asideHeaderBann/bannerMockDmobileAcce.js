@@ -9,6 +9,10 @@ import menfashionBannFooter from "../../../components/assetes/images/categoriesP
 import wmenfashionBannHeader from "../../../components/assetes/images/categoriesPageImg/womenFashion/womenHBanner.png"
 import wmenfashionBannFooter from "../../../components/assetes/images/categoriesPageImg/womenFashion/womenFooterBanner.png"
 import appliancesanner from "../../../components/assetes/images/categoriesPageImg/aplincess/aplincessBanner.png"
+import babybannerHeader from "../../../components/assetes/images/categoriesPageImg/babyImg/babayHBanner.png"
+import toysbannerHeader from "../../../components/assetes/images/categoriesPageImg/toysImg/toysBannerHeader.png"
+import sportsbannerHeader from "../../../components/assetes/images/categoriesPageImg/sports&outDoors/sports&outdoorsBanner.png"
+import healthNutImg from "../../../components/assetes/images/categoriesPageImg/Health&nutritions/HealthBanner.png"
 export const mobBannData = {
     id: "1", hTitle: "Mobiles & Accessories", wrapperImg: bann, eventKey: "1"
 }
@@ -68,4 +72,25 @@ export const applianceBanner = {
     id: "1",
     eventKey: "10",
     wrapperImg: appliancesanner,
+}
+
+export const babyBanner = {
+    id: "1",
+    eventKey: "11",
+    wrapperImg: babybannerHeader,
+}
+export const toysBanner = {
+    id: "1",
+    eventKey: "12",
+    wrapperImg: toysbannerHeader,
+}
+export const sportsBanner = {
+    id: "1",
+    eventKey: "13",
+    wrapperImg: sportsbannerHeader,
+}
+export const healthNutritionbann = {
+    id: "1",
+    eventKey: "14",
+    wrapperImg: healthNutImg,
 }

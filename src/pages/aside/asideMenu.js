@@ -78,7 +78,7 @@ export const menuData = {
             eventKey: "14",
             menuItem: "Health  Nutrition"
         },
-        /* {
+        {
             id: "16",
             eventKey: "15",
             menuItem: "Kids’ Fashion"
@@ -95,17 +95,17 @@ export const menuData = {
             menuItem: "Office Supplies, Books & Media"
         },
 
-        {
-            id: "19",
-            eventKey: "18",
-            menuItem: "Pet Supplies"
-        },
+        /* {
+           id: "19",
+           eventKey: "18",
+           menuItem: "Pet Supplies"
+       },
 
-        {
-            id: "20",
-            eventKey: "19",
-            menuItem: "Automotive"
-        }, */
+       {
+           id: "20",
+           eventKey: "19",
+           menuItem: "Automotive"
+       }, */
 
 
 
